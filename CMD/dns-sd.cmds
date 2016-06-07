@@ -1,0 +1,3 @@
+dns-sd //multi DNS service Discover CMD.
+exm.
+dns-sd -B _ssh._tcp.	//search for ssh service.

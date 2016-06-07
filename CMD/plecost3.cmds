@@ -1,0 +1,5 @@
+Plecost3	//vulnerbility fingerprinting ... finder
+
+python3 -m pip install plecost
+
+python <domain>

@@ -1,0 +1,8 @@
+
+
+//layout in (gdb) Garbled characters in peda.
+layout asm;
+
+//disable break point
+disable [Num]
+
