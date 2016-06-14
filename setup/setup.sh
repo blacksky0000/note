@@ -18,5 +18,16 @@ git clone https://github.com/longld/peda.git ~/peda
 echo "source ~/peda/peda.py" >> ~/.gdbinit
 echo "DONE! debug your program with gdb and enjoy"
 
+#install GUI for Ubuntu server
+sudo apt-get install -y ubuntu-desktop
+
+
+
+
+
+
+
+
+
 #if [ "$1" = ""]
 #fi
