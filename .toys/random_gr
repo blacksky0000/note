@@ -1,0 +1,14 @@
+#!/bin/bash
+
+
+# n=`ls -f /usr/local/Cellar/cowsay/3.03/share/cows | wc -l`
+# tmp=$(($RANDOM % $n))
+# echo $tmpkk
+
+# ls /usr/local/Cellar/cowsay/3.03/share/cows |sort -R |tail -$N |while read file; do
+# 	echo $file
+# done
+
+files=(/usr/local/Cellar/cowsay/3.03/share/cows/*)
+filename=`basename "${files[RANDOM % ${#files[@]}]}" | sed -e "s/.cow//g"`
+cowsay -f $filename "Welcome Back"
