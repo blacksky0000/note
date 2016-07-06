@@ -4,8 +4,9 @@
 sudo apt-get install -y python python-pip python2.7-dev
 
 // for both.
-sudo pip install virtualenv virtualenvwrapper
+sudo pip install virtualenv
+sudo pip install virtualenvwrapper
 
 //addition.
-export WORKON_HOME=""
-source ~/.virtualenvs
+export WORKON_HOME=~/.virtualenvs
+source ////virtualenvwrapper.sh

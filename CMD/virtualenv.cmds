@@ -1,0 +1,13 @@
+#basic ...
+
+//mkdir
+mkvirtualenv <flag> <name>
+
+//detouch
+deactivate
+
+//work back
+workon <name>
+
+//post pip install to next user
+echo "pip install xxx" | 
