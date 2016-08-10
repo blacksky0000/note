@@ -1,0 +1,8 @@
+# check current branch
+git branch
+
+# make new branch
+git checkout -b nnn<branch name>
+
+# stack current files / pop current fils
+git stash {pop}

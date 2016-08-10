@@ -1,0 +1,18 @@
+
+#all ps 
+docker ps -a
+
+#all process id.
+docker ps -q
+
+#running docker image
+docker run --rm -it -p <port>:<forward port> --name <names> <image> <cmds>
+
+#remove docker image
+docker rmi <name>
+
+#build dockerfile
+docker build -t <name> .
+
+#kill all docker
+docker rm `docker ps -q -a`
