@@ -1,0 +1,21 @@
+# For windows home edition //docker tool box
+https://github.com/docker/toolbox/releases/download/v1.12.0/DockerToolbox-1.12.0.exe
+
+# run command with docker terminals to build new images
+# cd $Dockerfile_path/
+docker build <user_container_name> .
+
+# run container image
+docker run -it -p 127.0.0.1:$HOSTPORT:$CONTAINERPORT --name <name> <container_name> /bin/bash
+
+# check all container
+docker ps -a
+
+# rm all running process
+docker rm `docker ps -q -a`
+
+# all images
+docker images
+
+# rm images
+docker rmi <container_name>
