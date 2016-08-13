@@ -1,7 +1,12 @@
 
+//get in to the dir where u want save VM.
+
 vagrant init
 vagrant box add hashicorp/precise64
 vagrant up
+
+
+
 
 // change local value
 ENV["LC_ALL"] = "en_US.UTF-8"
