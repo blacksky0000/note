@@ -1,0 +1,5 @@
+
+# * could be anything
+for i in *; do cat $i; done;
+
+
