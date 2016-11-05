@@ -1,0 +1,12 @@
+# start server
+bundle exec rails s 
+
+# console
+bundle exec rails c
+
+# generate modle
+rails g scaffold [model name] [value name]:[type]
+
+# annotate schema infor // gem annotate
+bundle exec annotate
+
