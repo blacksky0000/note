@@ -1,0 +1,21 @@
+
+gem 'devise'
+rails g devise:install
+rails g decise User
+# migrate
+
+# for controller
+before_action :authenticate_user!
+
+gem 'slim'
+
+Rails Console heler
+group :development do
+  gem "pry-rails"
+  gem "pry-doc"
+  gem "pry-stack_explorer"
+  gem "pry-byebug"
+end
+
+gem 'simple_form'
+rails generate simple_form:install

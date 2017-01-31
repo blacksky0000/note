@@ -1,0 +1,17 @@
+
+# screenshot package
+pip install seleium
+
+from selenium import webdriver
+
+
+# example
+http://rachbelaid.com/capturing-screenshots-of-website-with-python/
+
+pip install filedepot
+from depot.manager import DepotManager
+
+# to user DepotManager
+
+# phantomjs need
+npm install -g phantomjs

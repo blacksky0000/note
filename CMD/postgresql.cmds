@@ -5,3 +5,6 @@ psql -U "admin name" -l
 # set user passwd
 sudo -u postgres psql postgres
 \password postgres
+
+usage:
+https://www.cyberciti.biz/faq/howto-add-postgresql-user-account/

@@ -1,0 +1,9 @@
+
+# underscore js useful functions
+url: http://underscorejs.org/#isUndefined
+
+# backbone js useful MCV model
+url: http://backbonejs.org/
+
+# joint js useful diagram
+url: http://resources.jointjs.com/docs/jointjs/v1.0/joint.html#dia
